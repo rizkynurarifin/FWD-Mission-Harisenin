@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Chill Movie App</title>
+    <link rel="shortcut icon" href="images/chill-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/login.css">
+</head>
+
+<body>
+    <main class="card-container">
+        <img src="images/logo.png" alt="logo">
+
+        <div class="card-header">
+            <p>Masuk</p>
+            <p>Selamat datang kembali!</p>
+        </div>
+
+        <form action="#" class="card-form">
+            <div class="input-group">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" name="username" id="username" class="form-input" placeholder="Masukkan username">
+            </div>
+
+            <div class="input-group">
+                <label for="password" class="form-label">Kata Sandi</label>
+                <input type="password" name="password" id="password" class="form-input"
+                    placeholder="Masukkan kata sandi">
+                <img src="images/icons/eye-off.png" alt="eye-off-icon" class="password-icon">
+
+                <div class="form-footer">
+                    <p>Belum punya akun? <a href="register.html">Daftar</a></p>
+                    <a href="#">Lupa kata sandi?</a>
+                </div>
+            </div>
+            <button type="submit" class="form-button form-button-primary">Masuk</button>
+            <p class="separator">Atau</p>
+            <button type="button" class="form-button form-button-google">
+                <img src="images/icons/google.png" alt="google-icon">
+                <p>Masuk dengan Google</p>
+            </button>
+        </form>
+    </main>
+</body>
+
+</html>
