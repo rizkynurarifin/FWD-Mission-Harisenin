@@ -1,0 +1,106 @@
+/* Custom Styles */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f8fafc;
+}
+
+/* Scrollbar Style untuk Kartu */
+.card-text-scroll::-webkit-scrollbar {
+    width: 4px;
+}
+
+.card-text-scroll::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.card-text-scroll::-webkit-scrollbar-thumb {
+    background: #e2e8f0;
+    border-radius: 10px;
+}
+
+/* Scrollbar Style untuk Main Content */
+@media (min-width: 1024px) {
+    .main-scroll::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .main-scroll::-webkit-scrollbar-track {
+        background: #f8fafc;
+    }
+
+    .main-scroll::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 10px;
+    }
+}
+
+/* Tab Buttons */
+.tab-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid transparent;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: all 0.3s ease;
+}
+
+.active-tab {
+    border-color: #4f46e5;
+    color: #4f46e5;
+}
+
+.inactive-tab {
+    color: #94a3b8;
+}
+
+.inactive-tab:hover {
+    color: #475569;
+}
+
+/* Badges */
+.count-badge {
+    padding: 0.125rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 10px;
+    margin-left: 0.25rem;
+}
+
+.active-badge {
+    background-color: #e0e7ff;
+    color: #4f46e5;
+}
+
+.inactive-badge {
+    background-color: #f1f5f9;
+    color: #94a3b8;
+}
+
+/* Labels & Input */
+.input-label {
+    display: block;
+    font-size: 10px;
+    font-weight: 700;
+    color: #e0e7ff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-left: 0.25rem;
+}
+
+.clear-all-btn {
+    font-size: 10px;
+    font-weight: 700;
+    color: #ef4444;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: all 0.2s;
+}
+
+.clear-all-btn:hover {
+    background-color: #fef2f2;
+}
